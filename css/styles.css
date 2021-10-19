@@ -84,6 +84,10 @@ font-size: 5.625rem; color: #66BFBF;
   width:50%;
   margin:10px auto 0;
 }
+.contact-me-para{
+    width:50%;
+    margin:auto; 
+}
 h3{
   color:#11999E;
 }
