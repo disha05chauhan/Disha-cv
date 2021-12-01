@@ -1,0 +1,234 @@
+body{
+margin: 0;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+color: #40514E;
+font-weight:bold;
+background-color: #fff;
+
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  margin-bottom: 2%;
+}
+h1{
+margin:0;
+font-family: 'Ephesis', cursive;
+font-size: 5.625rem; color: #66BFBF;
+}
+hr{
+
+  border-style: dotted none none none;
+ border-width: 5px;
+  border-color: #5EAAA8;
+  margin:80px auto;
+ width: 5%;
+ background-color: #fff;
+ opacity: 1;
+ }
+ h3{
+   color:#11999E;
+ }
+ a{
+     color:#11999E;
+     margin-right: 10px;
+     text-decoration: none;
+ }
+ a:hover{
+   color: #EAF6F6;
+ }
+/* top container */
+.top-container{
+  background-color: #E4F9F5;
+  position:relative;
+  padding-top: 200px;
+  padding-bottom: 85px;
+ height:710px;
+ margin-bottom: 40px;
+
+}
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+
+
+  }
+  .mountain-image{
+    position: relative;
+    bottom:9%;
+  }
+  .top-cloud{
+    position: absolute;
+    right: 300px; top: 70px; margin:auto;
+
+  }
+  /* introduction */
+  .circle1,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7,.circle8,.circle9{
+  background-color: #66BFBF;
+
+    border-radius: 100%;
+    position: absolute;
+  }
+  /* .circle1{
+    height:250px;
+    width:250px;
+    left: -70px;
+      bottom: -24%;
+opacity:1;
+    z-index: -1;
+  }
+  .circle2{
+    height:170px;
+    width:170px;
+    right:3%;
+opacity:1;
+    bottom: -40%;
+  }
+
+
+  .circle3{
+    height:150px;
+    width:150px;
+    bottom:-80%;
+    left: 5%;
+opacity:0.5;
+
+  } */
+
+
+
+
+  .disha-image{
+    height:250px;
+    width:250px;
+    margin:3% auto;
+    border-radius: 100%;
+
+  }
+  .intro{
+    width:50%;
+    margin:10px auto 0;
+     letter-spacing: 0.125em;
+  }
+
+  /* skills */
+  #skills-section{
+    background-color: #fff;
+  }
+  .skills{
+
+     padding-top:5%;
+     margin: auto 10%;
+
+
+
+
+  }
+
+  .skill-image-right{
+    width:20%;
+    float: right; margin-left: 30px;
+  }
+  .skill-image-left{
+    width:20%;
+    float: left; margin-right: 30px;
+  }
+  .skill-row{
+    width: 70%;
+   line-height: 2;
+   margin:100px  auto;
+   text-align: left;
+  }
+  .another-h3{
+    font-weight: bold;
+  }
+  /* education */
+  #education{
+    margin: auto 20%;
+  }
+  .image-education{
+    height:550px;
+    width:650px;
+    margin: 2% auto;
+  }
+  icon{
+    color:#000;
+  }
+ /* project */
+ .vl {
+  border-left: 6px solid #E4F9F5 ;
+  height: 540px;
+  margin-left: 30%;
+  float: left;
+  margin-right: 10%;
+}
+.project-name{
+  line-height: 3;
+  text-align: left;
+
+}
+.circle5,.circle6,.circle7,.circle8,.circle9{
+  width: 15px;
+  height:15px;
+  margin-left:29.7%;
+  margin-top:2%;
+}
+  /* contact me */
+
+  .contact-me{
+   margin-bottom: 40px;
+    line-height: 2;
+  }
+  .btn {
+     background: #66BFBF;
+     background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+     background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+     background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+     background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+     background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     color: #FFFFFF;
+     font-family: Arial;
+     font-size: 20px;
+     font-weight: 100;
+     padding: 18px;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+     text-align: center;
+  }
+
+  .btn:hover {
+     border: groove #FFFFFF 1px;
+     background: #E4F9F5; color: #66BFBF;
+     background-image: -webkit-linear-gradient(top, #E4F9F5, #E4F9F5);
+     background-image: -moz-linear-gradient(top, #E4F9F5, #E4F9F5);
+     background-image: -ms-linear-gradient(top, #E4F9F5, #E4F9F5);
+     background-image: -o-linear-gradient(top, #E4F9F5, #E4F9F5);
+     background-image: -webkit-gradient(to bottom, #E4F9F5, #E4F9F5);
+     -webkit-border-radius: 96px;
+     -moz-border-radius: 96px;
+     border-radius: 96px;
+     text-decoration: none;
+  }
+
+/* footer */
+
+
+.bottom-container{
+  background-color:#66BFBF;
+  color: #EAF6F6;
+  line-height: 2;
+  padding: 20px;
+  font-weight: bold;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 60%
+}
