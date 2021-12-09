@@ -5,7 +5,7 @@ font-family: 'Quicksand', sans-serif;
 color: #40514E;
 font-weight:bold;
 background-color: #fff;
-  letter-spacing: 0.125em;
+   letter-spacing: 0.125em;
 
 }
 h2{
@@ -46,21 +46,23 @@ hr{
   background-color: #E4F9F5;
   position:relative;
   padding-top: 200px;
-  padding-bottom: 85px;
- height:710px;
+
+ height:140%;
  margin-bottom: 40px;
 
 }
 .bottom-cloud{
     position:absolute;
-    left:300px;
-    bottom:300px;
+    left:20%;
+    bottom:40%;
 
 
   }
   .mountain-image{
     position: relative;
     bottom:9%;
+    width:44%;
+    height:87%;
   }
   .top-cloud{
     position: absolute;
@@ -113,7 +115,7 @@ opacity:0.5;
   .intro{
     width:50%;
     margin:10px auto 0;
-     
+
   }
 
   /* skills */
@@ -232,4 +234,41 @@ opacity:0.5;
 .copyright{
   color: #EAF6F6;
   font-size: 60%
+}
+@media (max-width: 575.98px){
+.top-cloud{
+  right:0;
+  top:16%;
+
+}
+  .bottom-cloud{
+    left: 0;
+  }
+  .mountain-image{
+    height:300px;
+    width:500px;
+  }
+h1{
+  margin-top: 0;
+}
+.intro{
+  width:90%;
+}
+.skills{
+  margin: auto 0%;
+}
+#education{
+  margin: auto 0;
+}
+.image-education{
+  width:480px;
+}
+.circle5,.circle6,.circle7,.circle8,.circle9{
+
+  margin-left:29.3%;
+  margin-top:2%;
+}
+.vl{
+  height: 650px;
+}
 }
